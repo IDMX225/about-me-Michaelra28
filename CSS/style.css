@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto";
+    background-color: #F0B63C;
+    color:#6F809E;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Neuton";
+    font-size:40pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color: #3579F0;
+    border: 2px solid #5679F0;
+    background-color: #B09458;
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
