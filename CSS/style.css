@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto";
-    background-color: #F0B63C;
-    color:#6F809E;
+    background-color: #ffffff;
+    color:#000000;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -21,10 +21,23 @@ header {
 #hero, footer {
     color: #3579F0;
     border: 2px solid #5679F0;
-    background-color: #B09458;
+    background-color: #dbdbdb;
     text-align: center;
     padding: 10px;
 }
+.column {
+   /* float: left;*/
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+   /* height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
 
 /* Hero Section */
 
@@ -44,6 +57,8 @@ section#hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
+
 }
 
 #hobbies ul li:nth-child(even) {
@@ -59,10 +74,14 @@ section#hobbies {
 
 #gallery img {
     max-width: 100%;
+    max-height: 100%;
 }
 
 #gallery figure {
     text-align: center;
+}
+#gallery :hover{
+    opacity: 50%;
 }
 
 /* Literature */
