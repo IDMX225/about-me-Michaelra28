@@ -6,7 +6,8 @@ Michael Rivas! (Test Student)
 Description: Hello, this is a project that I will like to show you a little bit about me and personal stuff I would like to share about myself.
 I will be sharing some of the things I like to do on my free time such as family and quality time, playing sports; mainly soccer, reading the Bible
 and working out at least 5 times a week. Even though sometimes its hard I try walking up every morning early to meditate, connect with God and get 
-ready to hit the gym. I created a logo with my initials 
+ready to hit the gym. I created a logo with my initials. Also, I created a video showing my admiration to Cristiano Ronaldo which in my opinion 
+is the best soccer player in the world
 
 Color Scheme
 background-color: #ffffff;
