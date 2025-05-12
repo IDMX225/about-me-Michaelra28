@@ -96,7 +96,7 @@
                 trip to hipefully next year </p>
 
             </div>
-            
+
         </section>
 
         <section id="gallery">
@@ -134,55 +134,55 @@
 
         </section>
 
-            <article id="lit">
+        <article id="lit">
 
-                <h2>Netlify Large Media Format</h2>
+            <h2>Netlify Large Media Format</h2>
 
-            <div>
-    <p> Netlify Large Media, a Git Large File Storage (LFS)
-        implementation, helps manage large assets like images,
-        audio, and video files in Git repositories connected 
-        to Netlify sites. It replaces these assets with text 
-        pointer files in the repository, storing the actual 
-        files on Netlify's servers. This reduces repository size,
-        speeds up clones, and enables on-the-fly image transformations</p>
+        <div>
+<p> Netlify Large Media, a Git Large File Storage (LFS)
+    implementation, helps manage large assets like images,
+    audio, and video files in Git repositories connected 
+    to Netlify sites. It replaces these assets with text 
+    pointer files in the repository, storing the actual 
+    files on Netlify's servers. This reduces repository size,
+    speeds up clones, and enables on-the-fly image transformations</p>
 
-    <p> How it works:
-        Large Media uses Git LFS, which is an extension to Git that allows
-        you to track large files without bloating your repository. Instead 
-        of storing the full binary file in the repository, LFS stores a pointer
-        to the file on a remote server (in this case, Netlify's servers). 
-        When you clone the repository, you only get the pointer, and the actual
-        file is fetched on demand.  </p>
+<p> How it works:
+    Large Media uses Git LFS, which is an extension to Git that allows
+    you to track large files without bloating your repository. Instead 
+    of storing the full binary file in the repository, LFS stores a pointer
+    to the file on a remote server (in this case, Netlify's servers). 
+    When you clone the repository, you only get the pointer, and the actual
+    file is fetched on demand.  </p>
 
-    <p> Benefits: 
-        Smaller repositories: This means faster clones and easier 
-        repository management. 
-        Faster builds: Netlify can build your site faster because
-        it only needs to clone the code, not all the large assets. 
-        Image transformations: Netlify provides on-the-fly image 
-        transformations, allowing you to serve different sizes of 
-        the same image without storing multiple versions</p>
+<p> Benefits: 
+    Smaller repositories: This means faster clones and easier 
+    repository management. 
+    Faster builds: Netlify can build your site faster because
+    it only needs to clone the code, not all the large assets. 
+    Image transformations: Netlify provides on-the-fly image 
+    transformations, allowing you to serve different sizes of 
+    the same image without storing multiple versions</p>
 
-    <p> How to use it:
-        Enable Large Media: You'll need to enable Large Media on your 
-        Netlify site and in your local repository. 
-        Specify tracked files: You'll use the git lfs track command
-        to specify which files should be managed by LFS. 
-        Push your changes: When you push your repository, Git will 
-        store the pointers and upload the large files to Netlify's storage. </p>
+<p> How to use it:
+    Enable Large Media: You'll need to enable Large Media on your 
+    Netlify site and in your local repository. 
+    Specify tracked files: You'll use the git lfs track command
+    to specify which files should be managed by LFS. 
+    Push your changes: When you push your repository, Git will 
+    store the pointers and upload the large files to Netlify's storage. </p>
 
-    <p> Limitations:
-        Large Media is tied to a specific site and cannot be used with 
-        Deploy to Netlify buttons or repositories with multiple connected sites. 
-        You cannot create a new site from a fork of a Large-Media-enabled repository. 
-        Files tracked with Large Media are not available for build-time processing
-        (e.g., using image processing plugins in your site's build process). 
-        Large Media is not suitable for streaming audio or video files. </p>
+<p> Limitations:
+    Large Media is tied to a specific site and cannot be used with 
+    Deploy to Netlify buttons or repositories with multiple connected sites. 
+    You cannot create a new site from a fork of a Large-Media-enabled repository. 
+    Files tracked with Large Media are not available for build-time processing
+    (e.g., using image processing plugins in your site's build process). 
+    Large Media is not suitable for streaming audio or video files. </p>
 
 
-            </div>
-                
+        </div>
+            
 
 
             <section id="video">
